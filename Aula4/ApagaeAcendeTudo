@@ -43,3 +43,24 @@ void loop()
     acendeQuaseTudo();
   }
 }
+ void acendeTudo(){
+   digitalWrite(led2, HIGH);
+   digitalWrite(led3, HIGH);
+   digitalWrite(led4, HIGH);
+   digitalWrite(led5, HIGH);
+   digitalWrite(led6, HIGH);
+}
+
+void apagarTudo(){
+   digitalWrite(led2, LOW);
+   digitalWrite(led3, LOW);
+   digitalWrite(led4, LOW);
+   digitalWrite(led5, LOW);
+   digitalWrite(led6, LOW); 
+}
+
+void acendeQuaseTudo(){
+   digitalWrite(led2, HIGH);
+   digitalWrite(led4,HIGH);
+   digitalWrite(led6,HIGH);
+   }
