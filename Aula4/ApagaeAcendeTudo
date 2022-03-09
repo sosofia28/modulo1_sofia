@@ -37,7 +37,7 @@ void loop()
     acendeTudo();
   }
   if(var2){
-    apagaTudo();
+    apagarTudo();
   }
   if(var3){
     acendeQuaseTudo();
