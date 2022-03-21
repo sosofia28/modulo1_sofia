@@ -1,7 +1,7 @@
 // C++ code
 //
 
-const int led1 = 1;
+const int led1 = 12;
 const int led2 = 2;
 const int led3 = 3;
 const int led4 = 4;
@@ -88,5 +88,5 @@ Serial.println(var);
   }else{
     digitalWrite(led10,LOW);
                  }
-  delay(10);
+  delay(1000);
 }
